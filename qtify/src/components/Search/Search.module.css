@@ -13,6 +13,7 @@
     border-bottom-right-radius:0px ;
     border: 1px solid var(--color-black);
     width: 502px;
+    font-family: Poppins;
 }
 
 .searchButton{
@@ -22,5 +23,6 @@
     border: 1px solid var(--color-black);
     border-left: none;
     cursor: pointer;
+    font-family: Poppins;
     /* width: 502px; */
 }
