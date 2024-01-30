@@ -7,6 +7,7 @@ import { fetchTopAlbums } from './components/api/api';
 // import { Card } from '@mui/material';
 import Card from './components/Card/Card';
 import Section from './components/Section/Section';
+import style from './App.module.css';
 
 function App() {
 
@@ -36,7 +37,9 @@ function App() {
           <Card data={topAlbum} type='album' key={topAlbum.id}/>
         ))
       } */}
+      <div className={style.sectionWraper}>
       <Section data={topAlbumData} title='Top Album' type='album' />
+      </div>
     </div>
   );
 }

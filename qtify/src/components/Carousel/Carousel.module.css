@@ -1,0 +1,27 @@
+.wrapper{
+    position: relative;
+}
+
+.leftWrapper{
+    position: absolute;
+    left: 0;
+    top: 40%;
+    transform: translateY(-50%);
+    z-index: 10;
+    /* border-radius: 50%;
+    overflow: hidden; */
+    cursor: pointer;
+}
+
+.rightwrapper{
+    position: absolute;
+    /* width: 24px;
+    height: 24px; */
+    top: 40%;
+    right: 1px;
+    transform: translateY(-50%);
+    z-index: 10;
+    /* border-radius: 50%; */
+    /* overflow: hidden; */
+    cursor: pointer;
+}
