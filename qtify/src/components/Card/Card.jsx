@@ -25,6 +25,24 @@ export const Card = ({data , type}) => {
                 </Tooltip>
             )
         }
+        case "song" : {
+            const {image , likes ,  title } = data;
+            return (
+                <div className={style.wraper}>
+                   <div className={style.card}>
+                      <img src={image} alt="song" />
+                         <div className={style.banner}>
+                            <div className={style.pill}>               
+                               <p>{likes} Likes</p>              
+                            </div>       
+                         </div> 
+                    </div>
+                <div className={style.titleWraper}>
+                <p>{title}</p>  
+                </div>
+                </div>      
+                );
+        }
         default :  return <></>    
     }
   }
